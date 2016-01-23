@@ -16,9 +16,12 @@ INSTALLATION
   
   $ sudo make install
   
+  $ sudo ldconfig  
+  
+  
   for python
   
-  $ cd cd libsandbox/Sandbox/pysandbox
+  $ cd  libsandbox/Sandbox/pysandbox
   
   $ python setup.py build
   
