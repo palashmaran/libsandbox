@@ -6,18 +6,16 @@ INSTALLATION
 
   source packages
   
-  $ tar -xzf libsandbox-<version>.tar.gz
+  $ tar -xzf libsandbox.tar.gz
   
-  $ cd libsandbox-<version>
+  $ cd libsandbox/Sandbox
   
   $ ./configure
   
   $ sudo make install
   
   
-  $ tar -xzvf pysandbox-<version>.tar.gz
-  
-  $ cd pysandbox-<version>
+  $ cd pysandbox
   
   $ python setup.py build
   
