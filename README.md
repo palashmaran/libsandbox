@@ -6,16 +6,19 @@ INSTALLATION
 
   source packages
   
-  $ tar -xzf libsandbox.tar.gz
+  $ git clone https://github.com/palashmaran/libsandbox.git
   
-  $ cd libsandbox/Sandbox
+  for c/c++
+  
+  $ cd libsandbox/Sandbox/libsandbox
   
   $ ./configure
   
   $ sudo make install
   
+  for python
   
-  $ cd pysandbox
+  $ cd cd libsandbox/Sandbox/pysandbox
   
   $ python setup.py build
   
@@ -28,9 +31,25 @@ GETTING STARTED
   The simplest way to get started with the sandbox libraries is to invoke the 
   Python
 
-    $ python sample2.py 
+    $ python sample2.py "exe name"
 
-   Compilation steps for cSandbox.c
+  for ex  : $ python sample2.py testing
+
+To invoke sandbox by c program
+    $ ./sandbox  testing
+    
+  output : 
+  hello
+  result: OK
+  cpu: 2ms
+  mem: 4292kB
+
+
+    if u  get above output means sandbox is working fine ;
+
+
+
+(optional)   Compilation steps for cSandbox.c
     gcc -o sandbox cSandbox.c -lsandbox
 
    if you face any error then set permissions 777  for in case of c  cSandbox.c,sandbox or in case of python  sample2.py then check 
