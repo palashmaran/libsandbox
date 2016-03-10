@@ -74,6 +74,7 @@ To invoke sandbox by c program
   if setup sandboxing in php environment and still facing problem then set ownership to www-data/apache  for   /var/www/html directory .
   
   Command with changing ownership :
+  
   for ubuntu :
  
   sudo chown www-data -R /var/www/html
