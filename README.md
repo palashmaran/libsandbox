@@ -15,7 +15,12 @@ INSTALLATION
   $ ./configure
   
   $ sudo make install
-  
+   
+  $ sudo vim   /etc/ld.so.conf.d/sandbox.conf
+    add the given lines
+    /usr/local/lib
+    /usr/local/lib64
+    
   $ sudo ldconfig  
   
   
