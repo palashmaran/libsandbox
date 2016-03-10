@@ -71,4 +71,18 @@ To invoke sandbox by c program
    sudo chmod u+x sample2.py
    
     
-  if setup sandboxing in php environment and still facing problem then set ownership to www-data and set permission 777 to  /var/www/html .
+  if setup sandboxing in php environment and still facing problem then set ownership to www-data/apache  for   /var/www/html directory .
+  
+  Command with changing ownership :
+  for ubuntu :
+ 
+  sudo chown www-data -R /var/www/html
+ 
+  for others :
+ 
+  sudo chown apache -R /var/www/html
+  
+  Still facing any issue ,try this command.
+  
+  sudo chmod -R 777  /var/www/html
+  
