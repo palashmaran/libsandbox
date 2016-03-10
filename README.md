@@ -67,6 +67,7 @@ To invoke sandbox by c program
  Set execute permissions :
  
    sudo chmod u+x sandbox
+   
    sudo chmod u+x sample2.py
    
     
