@@ -64,7 +64,10 @@ To invoke sandbox by c program
     
     gcc -o sandbox cSandbox.c -lsandbox
 
-   if you face any error then set permissions 777  for in case of c  cSandbox.c,sandbox or in case of python  sample2.py then check 
+ Set execute permissions :
+ 
+   sudo chmod u+x sandbox
+   sudo chmod u+x sample2.py
+   
     
-
   if setup sandboxing in php environment and still facing problem then set ownership to www-data and set permission 777 to  /var/www/html .
